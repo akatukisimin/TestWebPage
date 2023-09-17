@@ -14,12 +14,17 @@ div.header {
     height: 96px;
     background-color: rgb(51, 51, 51);
     display: grid;
+    font-family: 'New Tegomin';
 }
 
 div.menu{
     width: auto;
     height: 64px;
     background-color: rgb(58, 58, 58);
+    display: grid;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: repeat(12, 1fr);
 }
 
 div.body{
